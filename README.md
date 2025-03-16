@@ -26,22 +26,22 @@ The PrepMate AI App allows users to practice technical and behavioral interview 
 - **[Gemini AI](https://gemini.ai/)**: AI API for generating interview questions and analyzing answers.
 - **[Clerk](https://clerk.dev/)**: Authentication and user management.
 
-### **Folder Structure.**
+## FOLDER STRUCTURE
+```plaintext
 PREPMATE AI/
 ├── app/                # Application structure for pages and components
-
-│   ├── (auth)          # Authentication-related routes
-│   ├── about-us/       # About Us page
-│   ├── api/            # API routes
-│   ├── dashboard/      # User dashboard-related pages
-│   ├── how-it-works/   # Information on how the platform works
-│   ├── fonts/          # Custom fonts for the app
-│   ├── favicon.ico     # Favicon for the website
-│   ├── globals.css     # Global styles
-│   ├── layout.js       # Application layout component
-│   └── page.js         # Main entry point for the homepage
+│ ├── (auth)            # Authentication-related routes
+│ ├── about-us/         # About Us page
+│ ├── api/              # API routes
+│ ├── dashboard/        # User dashboard-related pages
+│ ├── how-it-works/     # Information on how the platform works
+│ ├── fonts/            # Custom fonts for the app
+│ ├── favicon.ico       # Favicon for the website
+│ ├── globals.css       # Global styles
+│ ├── layout.js         # Application layout component
+│ └── page.js           # Main entry point for the homepage
 ├── components/         # Reusable UI components
-│   └── ui/             # Specific UI components
+│ └── ui/               # Specific UI components
 ├── lib/                # Shared libraries and utility functions
 ├── public/             # Static assets (images, files, etc.)
 ├── utils/              # Helper functions and shared utilities
@@ -52,6 +52,9 @@ PREPMATE AI/
 ├── tailwind.config.js  # Tailwind CSS configuration
 ├── tsconfig.json       # TypeScript configuration
 └── README.md           # Project documentation
+```
+
+
 
 
 
