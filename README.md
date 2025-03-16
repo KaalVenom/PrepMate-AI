@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/e8936597-16c6-411f-927a-13768f897b58)
 
-##PrepMate AI
-# AI-Driven Mock Interview Platform
+
+# PrepMate-AI  (AI-Driven Mock Interview Platform)
 
 **Welcome to PrepMate AI (AI-Driven Mock Interview Platform)**  
 This platform empowers developers by offering tailored, AI-based interview experiences that mimic real-world scenarios, ensuring comprehensive preparation for technical and behavioral interviews.
@@ -26,30 +26,32 @@ The PrepMate AI App allows users to practice technical and behavioral interview 
 - **[Gemini AI](https://gemini.ai/)**: AI API for generating interview questions and analyzing answers.
 - **[Clerk](https://clerk.dev/)**: Authentication and user management.
 
-## Folder Structure.
+### **Folder Structure.**
 PREPMATE AI/
-├── app/               ______ # Application structure for pages and components
-│   ├── (auth)           ______  # Authentication-related routes
-│   ├── about-us/        ______  # About Us page
-│   ├── api/             ______  # API routes
-│   ├── dashboard/       ______  # User dashboard-related pages
-│   ├── how-it-works/    ______  # Information on how the platform works
-│   ├── fonts/           ______  # Custom fonts for the app
-│   ├── favicon.ico      ______  # Favicon for the website
-│   ├── globals.css      ______  # Global styles
-│   ├── layout.js        ______  # Application layout component
-│   └── page.js          ______  # Main entry point for the homepage
-├── components/         ______   # Reusable UI components
-│   └── ui/              ______  # Specific UI components
-├── lib/                 ______  # Shared libraries and utility functions
-├── public/              ______  # Static assets (images, files, etc.)
-├── utils/               ______  # Helper functions and shared utilities
-├── .env.local           ______  # Environment-specific configuration
-├── drizzle.config.js   ______   # Drizzle ORM configuration
-├── middleware.js        ______  # Custom middleware for handling requests
-├── next.config.mjs      ______  # Next.js configuration
-├── tailwind.config.js   ______  # Tailwind CSS configuration
-├── tsconfig.json        ______  # TypeScript configuration
-└── README.md            ______  # Project documentation
+├── app/                # Application structure for pages and components
+
+│   ├── (auth)          # Authentication-related routes
+│   ├── about-us/       # About Us page
+│   ├── api/            # API routes
+│   ├── dashboard/      # User dashboard-related pages
+│   ├── how-it-works/   # Information on how the platform works
+│   ├── fonts/          # Custom fonts for the app
+│   ├── favicon.ico     # Favicon for the website
+│   ├── globals.css     # Global styles
+│   ├── layout.js       # Application layout component
+│   └── page.js         # Main entry point for the homepage
+├── components/         # Reusable UI components
+│   └── ui/             # Specific UI components
+├── lib/                # Shared libraries and utility functions
+├── public/             # Static assets (images, files, etc.)
+├── utils/              # Helper functions and shared utilities
+├── .env.local          # Environment-specific configuration
+├── drizzle.config.js   # Drizzle ORM configuration
+├── middleware.js       # Custom middleware for handling requests
+├── next.config.mjs     # Next.js configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── tsconfig.json       # TypeScript configuration
+└── README.md           # Project documentation
+
 
 
